@@ -3,85 +3,81 @@
     padding: 0px;
 }
 
-body{
-    background-color: black;
-}
-
+/*header*/
 #banner{
-    width: 1534px;
+    width: 1531px;
     height: 110px;
     border-style: solid;
-    border-width: 1px;
-    background-color: mediumturquoise;
+    background-color: green;
 }
 
-#logo{
+#logobox{
     width: 110px;
     height: 90px;
     border-style: solid;
     border-width: 1px;
-    position: relative;
-    top: 10px;
-    left: 20px;
     float: left;
-    margin-left: 125px;
+    margin-left: 135px;
+    margin-top: 10px;
 }
 
-#shrek{
+#logo{
     width: 110px;
     height: 90px;
 }
 
 #name{
     float: left;
-    margin-left: 225px;
-    margin-top: 35px;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 170px;
+    margin-top: 10px;
 }
 
-#leader{
+#n1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#n2{
+    text-align: center;
+}
+
+#leaderboard{
     float: left;
-    margin-top: 25px;
-    margin-left: 180px;
-    height: 60px;
-    width: 150px;
-    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 150px;
+    color: black;
 }
 
 #manage{
     float: left;
-    margin-left: 225px;
-    margin-top: 25px;
-    height: 60px;
-    width: 150px;
-    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 130px;
+    color: black;
 }
 
 /*nav*/
 #menu{
-    width: 1534px;
-    height: 616px;
+    width: 1531px;
+    height: 610px;
     border-style: solid;
-    border-width: 1px;
-    background-color: silver;
-    
+    background-color: darkolivegreen;
 }
 
-.categories{
+.catboxes{
+    width: 220px;
+    height: 180px;
     border-style: solid;
-    border-width: 3px;
-    height: 150px;
-    width: 200px;
     float: left;
-    margin: 60px;
-    margin-left: 105px;
-    margin-top: 70px;
+    margin-left: 124px;
+    margin-top: 80px;
 }
 
+.catimages{
+    width: 220px;
+    height: 180px;
+}
 
-
-.srk{
-    height: 150px;
-    width: 200px;
+.catnames{
+    text-align: center;
 }
