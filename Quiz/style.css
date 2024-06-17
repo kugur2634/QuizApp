@@ -5,12 +5,12 @@
 }
 
 body{
-    background: darkolivegreen;
+    background: tomato;
 }
 
 ::selection{
     color: #fff;
-    background: darkolivegreen;
+    background: tomato;
 }
 
 .start_btn, .info_box, .quiz_box, .result_box{
@@ -32,7 +32,7 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: darkolivegreen;
+    color: tomato;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -96,7 +96,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: solid darkolivegreen;
+    border: solid tomato;
     transition: all 0.3s ease;
 }
 
@@ -166,7 +166,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: darkolivegreen;
+    background: tomato;
 }
 
 section{
@@ -281,8 +281,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: darkolivegreen;
-    border: 1px solid darkolivegreen;
+    background: tomato;
+    border: 1px solid tomato;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -317,7 +317,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: darkolivegreen;
+    color: tomato;
     margin-bottom: 10px;
 }
 
@@ -353,13 +353,13 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid darkolivegreen;
+    border: 1px solid tomato;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
     color: #fff;
-    background: darkolivegreen;
+    background: tomato;
 }
 
 .buttons button.restart:hover{
@@ -367,13 +367,13 @@ footer button.show{
 }
 
 .buttons button.quit{
-    color: darkolivegreen;
+    color: tomato;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: darkolivegreen;
+    background: tomato;
 }
 
 #victory{
